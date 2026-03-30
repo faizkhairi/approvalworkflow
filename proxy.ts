@@ -9,6 +9,7 @@ export default auth((req) => {
   const isLoggedIn = !!req.auth
 
   const isPublicRoute =
+    pathname === "/" ||
     pathname.startsWith("/login") ||
     pathname.startsWith("/register") ||
     pathname.startsWith("/api/auth")

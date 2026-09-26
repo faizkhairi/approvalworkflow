@@ -141,3 +141,7 @@ chain, next-step activation), the Zod validation schemas, and the
 authorization scoping on the org/request/approve/reject API routes (mocking
 `auth()` and the Prisma client to assert membership and ownership checks run
 before any mutation, and that a foreign org or step id returns 403/404).
+
+## License
+
+MIT
